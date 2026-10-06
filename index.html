@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bola & Rede</title>
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#EEE6D6] text-stone-800">
+
+    <!-- MENU -->
+    <nav class="bg-[#EEE6D6] border-b border-stone-400 px-6 py-4 flex items-center justify-center md:justify-between">
+        <span class="hidden md:flex text-lg font-bold font-serif">Bola <span class="text-red-800 italic mx-1">&amp;</span> Rede</span>
+        <ul class="flex gap-6 text-sm">
+            <li><a class="hover:text-red-800" href="#grid">Jogos</a></li>
+            <li><a class="hover:text-red-800" href="#componentes">Treinos</a></li>
+            <li><a class="hover:text-red-800" href="#images">Galeria</a></li>
+            <li><a class="hover:text-red-800" href="#contato">Contato</a></li>
+        </ul>
+        <a class="hidden md:block bg-green-900 text-white text-sm font-semibold px-5 py-2 hover:bg-green-800" href="#contato">
+            Agendar aula
+        </a>
+    </nav>
+
+    <!-- TOPO DA PÁGINA -->
+    <header class="max-w-5xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+            <h1 class="text-4xl md:text-5xl font-serif font-bold leading-tight mb-5">
+                Futebol que se joga com a família inteira.
+            </h1>
+            <p class="text-stone-600 mb-6 max-w-sm">
+                Treinamos, jogamos e comemoramos juntos, da escolinha das crianças ao racha de sábado.
+                Cada turma segue o mesmo caminho: aquecer, treinar, jogar e relaxar.
+            </p>
+            <a href="#componentes"
+                class="inline-block border border-green-900 text-green-900 text-sm font-semibold px-5 py-2 hover:bg-green-900 hover:text-white transition duration-300">
+                Ver treinos
+            </a>
+        </div>
+
+        <ul class="border-t border-stone-400">
+            <li class="flex items-center gap-4 py-4 border-b border-stone-400">
+                <span class="w-7 h-7 bg-red-900 shrink-0"></span>
+                <div>
+                    <p class="font-semibold text-sm">Quadra de grama sintética</p>
+                    <p class="text-xs text-stone-500">Campo society, jogo o ano todo</p>
+                </div>
+            </li>
+            <li class="flex items-center gap-4 py-4 border-b border-stone-400">
+                <span class="w-7 h-7 bg-green-900 shrink-0"></span>
+                <div>
+                    <p class="font-semibold text-sm">Treinadores formados</p>
+                    <p class="text-xs text-stone-500">Aulas para todas as idades</p>
+                </div>
+            </li>
+            <li class="flex items-center gap-4 py-4 border-b border-stone-400">
+                <span class="w-7 h-7 bg-amber-600 shrink-0"></span>
+                <div>
+                    <p class="font-semibold text-sm">Campeonato interno</p>
+                    <p class="text-xs text-stone-500">Dois torneios por ano, com troféu</p>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <!-- GRID: JOGOS RECENTES -->
+    <section id="grid" class="max-w-5xl mx-auto px-6 py-12">
+        <h2 class="text-2xl font-serif font-semibold mb-6">Jogos recentes</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 auto-rows-[10rem] gap-4">
+            <div class="md:col-span-2 md:row-span-2 bg-linear-to-br from-[#D8CBA0] to-[#B89B62] p-4 flex items-end">
+                <span class="text-xs font-bold uppercase text-stone-600">Final de domingo</span>
+            </div>
+            <div class="md:col-span-1 bg-linear-to-br from-[#D8CBA0] to-[#B89B62] p-4 flex items-end">
+                <span class="text-xs font-bold uppercase text-stone-600">Time feminino campeão</span>
+            </div>
+            <div class="md:col-span-1 bg-linear-to-br from-[#D8CBA0] to-[#B89B62] p-4 flex items-end">
+                <span class="text-xs font-bold uppercase text-stone-600">Sub-13</span>
+            </div>
+            <div class="md:col-span-2 bg-linear-to-br from-[#D8CBA0] to-[#B89B62] p-4 flex items-end">
+                <span class="text-xs font-bold uppercase text-stone-600">Torneio de verão, 16 times</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- TREINOS EM QUATRO ETAPAS -->
+    <section id="componentes" class="bg-[#E3DAC4] py-14">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-serif font-semibold mb-2">O treino, em quatro etapas</h2>
+            <p class="text-sm text-stone-600 mb-10">
+                Toda aula segue a mesma ordem, do primeiro alongamento até o apito final.
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8">
+
+                <div class="border-l border-stone-400 pl-5">
+                    <p class="text-xl font-serif text-red-800 mb-2">01</p>
+                    <h3 class="font-serif font-bold mb-1">Aquecimento</h3>
+                    <p class="text-xs text-stone-600 leading-relaxed">
+                        Corrida leve e alongamento para preparar os músculos antes de pegar na bola.
+                    </p>
+                </div>
+
+                <div class="border-l border-stone-400 pl-5">
+                    <p class="text-xl font-serif text-red-800 mb-2">02</p>
+                    <h3 class="font-serif font-bold mb-1">Fundamentos</h3>
+                    <p class="text-xs text-stone-600 leading-relaxed">
+                        Passe, chute e domínio de bola, repetidos até virar hábito.
+                    </p>
+                </div>
+
+                <div class="border-l border-stone-400 pl-5">
+                    <p class="text-xl font-serif text-red-800 mb-2">03</p>
+                    <h3 class="font-serif font-bold mb-1">Jogo</h3>
+                    <p class="text-xs text-stone-600 leading-relaxed">
+                        Partida em times menores, para todo mundo tocar mais vezes na bola.
+                    </p>
+                </div>
+
+                <div class="border-l border-stone-400 pl-5">
+                    <p class="text-xl font-serif text-red-800 mb-2">04</p>
+                    <h3 class="font-serif font-bold mb-1">Volta à calma</h3>
+                    <p class="text-xs text-stone-600 leading-relaxed">
+                        Alongamento final de 10 minutos para o corpo descansar.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- IMAGENS -->
+    <section id="images" class="max-w-5xl mx-auto px-6 py-12">
+        <h2 class="text-2xl font-serif font-semibold mb-6">Nos bastidores</h2>
+
+        <div class="flex gap-7">
+            <div class="w-1/2">
+                <img class="blur-xs hover:filter-none transition duration-500 ease-in-out"
+                    src="https://picsum.photos/500/300" alt="Imagem gerada aleatoriamente">
+            </div>
+
+            <div class="w-1/2">
+                <img class="grayscale hover:filter-none transition duration-500 ease-in-out"
+                    src="https://picsum.photos/500/300" alt="Imagem gerada aleatoriamente">
+            </div>
+        </div>
+    </section>
+
+    <!-- ANIMAÇÃO -->
+    <section id="animation" class="max-w-5xl mx-auto px-6 pb-12">
+        <div class="flex items-center gap-7 text-red-800">
+            <i class="animate-ping text-3xl bx bx-heart"></i>
+            <i class="animate-bounce text-6xl bx bx-arrow-down-stroke"></i>
+            <i class="animate-spin [animation-duration:2s] text-5xl bx bx-circle-dashed-half"></i>
+        </div>
+    </section>
+
+    <!-- DEPOIMENTO -->
+    <section class="border-t border-stone-400 py-14">
+        <div class="max-w-5xl mx-auto px-6">
+            <blockquote class="border-l-4 border-red-800 pl-6 max-w-xl">
+                <p class="text-2xl font-serif italic leading-snug mb-4">
+                    Meu filho entrou na escolinha tímido e hoje não perde um treino.
+                    Ele ganhou amigos, e eu ganhei um sábado de manhã tranquilo.
+                </p>
+                <p class="text-sm"><span class="font-semibold">Lucas Henrique</span>
+                    <span class="text-stone-500">, pai de aluno</span>
+                </p>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer id="contato" class="bg-green-900 text-white py-12">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-serif font-semibold mb-8">Visite o clube</h2>
+
+            <div class="grid md:grid-cols-3 gap-6 text-sm">
+                <div>
+                    <p class="text-xs text-green-200 mb-1">Endereço</p>
+                    <p>Rua das Palmeiras, 320, Vila Mariana, São Paulo</p>
+                </div>
+                <div>
+                    <p class="text-xs text-green-200 mb-1">Horário</p>
+                    <p>Segunda a sábado, das 8h às 20hh</p>
+                </div>
+                <div>
+                    <p class="text-xs text-green-200 mb-1">Contato</p>
+                    <p>contato@bolaerede.com.br</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
